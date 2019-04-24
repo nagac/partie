@@ -1,5 +1,5 @@
 html, body
-    height: 100%
+    // height: 100%
     @include user-select-none()
 
 html
@@ -13,9 +13,7 @@ body
 #wrapper
     background: $purple-bg
     max-width: $layout-max-width
-    height: 100%
     @include center-align-block()
-    overflow: scroll
 
 #hero
     background: url('../images/hero.jpg')
@@ -24,7 +22,7 @@ body
     flex-direction: column
     justify-content: space-between
     padding: $sm-space
-    height: 100%
+    height: 450px
     @include box-sizing
 
     header
@@ -71,6 +69,8 @@ body
     
     #download-course
         border-bottom: 1px solid $light-purple
+        display: flex
+        // justify-content: space-between
         padding: $sm-space
 
     #feedback
@@ -80,3 +80,9 @@ body
         color: $medium-purple
         border-bottom: 1px solid $light-purple
         padding: $sm-space
+
+    #share-comment
+        background: $light-purple
+        padding: $sm-space
+        position: sticky
+        bottom: 0

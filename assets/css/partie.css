@@ -82,6 +82,8 @@ img {
 
 table {
   width: 100%; }
+  table tr:hover {
+    background: #443F5D; }
   table tr.selected {
     background: #2A253D; }
   table tr td {
@@ -115,7 +117,6 @@ button {
     margin-right: 8px; }
 
 html, body {
-  height: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -132,9 +133,7 @@ body {
 #wrapper {
   background: #332E48;
   max-width: 767px;
-  height: 100%;
-  margin: 0 auto;
-  overflow: scroll; }
+  margin: 0 auto; }
 
 #hero {
   background: url("../images/hero.jpg");
@@ -143,7 +142,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 16px;
-  height: 100%;
+  height: 450px;
   box-sizing: border-box; }
   #hero header {
     display: flex;
@@ -178,6 +177,7 @@ body {
     padding: 16px; }
   #details #download-course {
     border-bottom: 1px solid #443F5D;
+    display: flex;
     padding: 16px; }
   #details #feedback {
     padding: 16px; }
@@ -185,5 +185,10 @@ body {
     color: #989BA5;
     border-bottom: 1px solid #443F5D;
     padding: 16px; }
+  #details #share-comment {
+    background: #443F5D;
+    padding: 16px;
+    position: sticky;
+    bottom: 0; }
 
 /*# sourceMappingURL=partie.css.map */
