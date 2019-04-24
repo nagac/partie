@@ -78,7 +78,7 @@ p {
 img {
   vertical-align: middle; }
   img.rt-mar {
-    margin-right: 16px; }
+    margin-right: 8px; }
 
 table {
   width: 100%; }
@@ -173,8 +173,16 @@ body {
     padding: 16px; }
   #details #author {
     border-bottom: 1px solid #443F5D;
+    display: flex;
+    justify-content: space-between;
     padding: 16px; }
   #details #download-course {
+    border-bottom: 1px solid #443F5D;
+    padding: 16px; }
+  #details #feedback {
+    padding: 16px; }
+  #details #time {
+    color: #989BA5;
     border-bottom: 1px solid #443F5D;
     padding: 16px; }
 
