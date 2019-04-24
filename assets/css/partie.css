@@ -146,7 +146,7 @@ body {
   height: 100%;
   box-sizing: border-box; }
   #hero header {
-    diaplay: flex !important;
+    display: flex;
     justify-content: space-between; }
 
 #details {
