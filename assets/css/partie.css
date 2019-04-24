@@ -80,10 +80,12 @@ img {
   img.rt-mar {
     margin-right: 16px; }
 
-table tr.selected {
-  background: #2A253D; }
-table tr td {
-  padding: 16px; }
+table {
+  width: 100%; }
+  table tr.selected {
+    background: #2A253D; }
+  table tr td {
+    padding: 16px; }
 
 button {
   background: #fff;
