@@ -1,0 +1,45 @@
+// image
+img
+    vertical-align: middle
+
+    &.rt-mar
+        margin-right: $sm-space
+
+// table
+table
+    tr
+        &.selected
+            background: $purple
+        td
+            padding: $sm-space
+// button
+button
+    background: $light
+    border: none
+    color: $grey
+    cursor: pointer
+    font-size: $base-fs
+    font-weight: bold
+    height: 50px
+    border-radius: 10px
+    padding: 0 $md-space
+    outline: none
+
+    &:hover
+        background: darken($light, 8)
+
+    &.btn-primary
+        background: $primary
+        border-radius: 50px
+        color: $light
+        
+        &.btn-primary:hover
+            background: darken($primary, 8)
+
+.buttons
+    display: flex
+    justify-content: space-between
+
+    button:first-child
+        flex-grow: 1
+        margin-right: $xs-space

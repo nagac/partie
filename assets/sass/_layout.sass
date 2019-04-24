@@ -1,0 +1,72 @@
+html, body
+    height: 100%
+    @include user-select-none()
+
+html
+    font-size: 14px
+
+body
+    background: $dark-grey
+    font-family: $default-font-family
+    line-height: 1
+    
+#wrapper
+    background: $purple-bg
+    max-width: $layout-max-width
+    height: 100%
+    @include center-align-block()
+    overflow: scroll
+
+#hero
+    background: url('../images/hero.jpg')
+    background-size: cover
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding: $sm-space
+    height: 100%
+    @include box-sizing
+
+    header
+        diaplay: flex !important
+        justify-content: space-between
+
+#details
+    // padding: $sm-space
+    color: $light
+
+    nav
+        background: $purple
+
+        ul
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+
+            li
+
+                a
+                    color: $medium-purple
+                    display: block
+                    padding: $sm-space $md-space
+                    text-decoration: none
+
+                    &.active
+                        color: $light
+                        border-bottom: 3px solid $light
+    
+    #plays
+        border-bottom: 1px solid $light-purple
+        padding: $sm-space
+
+    #description
+        border-bottom: 1px solid $light-purple
+        padding: $sm-space
+
+    #author
+        border-bottom: 1px solid $light-purple
+        padding: $sm-space
+    
+    #download-course
+        border-bottom: 1px solid $light-purple
+        padding: $sm-space
