@@ -129,7 +129,7 @@ body {
 
 #wrapper {
   background: #332E48;
-  max-width: 375px;
+  max-width: 512px;
   height: 100%;
   margin: 0 auto;
   overflow: scroll; }
