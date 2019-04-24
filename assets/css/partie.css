@@ -149,7 +149,9 @@ body {
     justify-content: space-between; }
 
 #details {
-  color: #fff; }
+  padding-bottom: 64px;
+  color: #fff;
+  position: relative; }
   #details nav {
     background: #2A253D; }
     #details nav ul {
@@ -188,7 +190,9 @@ body {
   #details #share-comment {
     background: #443F5D;
     padding: 16px;
-    position: sticky;
-    bottom: 0; }
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; }
 
 /*# sourceMappingURL=partie.css.map */
